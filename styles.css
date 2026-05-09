@@ -1,0 +1,27 @@
+body{
+  text-align: center;
+  font-family: Verdana, Arial;
+}
+
+#myBtn{
+  font-size: 3em;
+  padding: 8px 25px;
+  border: none;
+  border-radius: 8px;
+  background-color: rgb(102, 217, 239);
+  cursor: pointer;
+  transition: background-color 0.25s, color 0.25s;
+}
+
+#myBtn:hover{
+  background-color: rgb(64, 200, 224);
+}
+
+#myBtn:active{
+  background-color: rgb(0, 170, 190);
+  color: white;
+}
+
+#myLbl{
+  font-size: 2em;
+}
